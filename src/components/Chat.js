@@ -24,7 +24,7 @@ export default function Chat() {
   }, [appState.isChatOpen]);
 
   useEffect(() => {
-    socket.current = io(process.env.REACT_APP_BACKENDURL = 'https://reapostapp.herokuapp.com');
+    socket.current = io(process.env.REACT_APP_BACKENDURL || 'https://reapostapp.herokuapp.com');
 
     socket.current.on('chatFromServer', message => {
       setState(draft => {
