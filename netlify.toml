@@ -3,4 +3,4 @@
   to = "/index.html"
   status = 200
 [build]
-CI= "npm run build”
+CI= "npm run build"
