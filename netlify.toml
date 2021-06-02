@@ -1,6 +1,4 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
+[[redirects]] 
   status = 200
 [build]
 CI= "npm run build"
