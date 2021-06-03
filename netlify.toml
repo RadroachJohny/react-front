@@ -1,4 +1,4 @@
 [[redirects]] 
   status = 200
 [build]
-CI= false
+CI= false npm run build
