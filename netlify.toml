@@ -1,4 +1,4 @@
 [[redirects]] 
   status = 200
 [build]
-CI=''
+CI= false
