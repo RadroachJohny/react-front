@@ -1,4 +1,4 @@
 [[redirects]] 
   status = 200
 [build]
-CI='' "npm run build"
+CI=''
